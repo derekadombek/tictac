@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 40%;
+    margin: 20px auto 20px auto;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    border: 1px solid #333333;
+    padding: 80px 0px 0px 80px;
+}
+
+.status {
+    margin-left: 50%;
+}
